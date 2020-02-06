@@ -6,10 +6,66 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
+    #header_image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 1% 10%;
+      opacity: 90%;
+      /* padding: 2px; */
+    }
+    #name_block {
+      position:absolute;
+      top: 10%;
+      left: 5%;
+    }
+    #name {
+      font-size:6vw;
+      font-weight: bold;
+      text-align: left;
+    }
+    #job-title{
+      font-size: 2vw;
+      text-align: center;
+    }
+    .container {
+      display: block;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding: 2px;
+      position: relative;
+    }
   
+    .section-block{
+      padding: 5 px;
+      width: auto;
+      height: auto;
+      /* border: 1 px red solid; */
+      /* margin-bottom: 5px; */
+    }
   </style>
 </head>
 <body>
-  Hello World
+  <div class="container">
+    <img id='header_image' src='/images/River_2.jpg'>
+    <div id='name_block' class = 'section-block'>
+      <div id='name'>
+        Chase Cowart
+      </div>
+      <div id='job-title'>
+        Fullstack Software Engineer
+      </div>
+    </div>
+    
+    <div class='section-block'>
+      <h2 class='section-title'>
+        About me
+      </h2>
+      <p class='section-content'>
+        I like dogs, physics, and making cool things.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
